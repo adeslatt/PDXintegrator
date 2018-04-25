@@ -7,7 +7,7 @@ Note that for now, we are using a private fork of the ontolib library for parsin
 Go to https://github.com/monarch-initiative/OLPG and enter the following commands (notify Peter if
 you need access). ::
 
-    $ git clone https://github.com/monarch-initiative/OLPG
+    $ git clone https://github.com/monarch-initiative/OLPG (if you use ssh, git clone git@github.com:monarch-initiative/phenol.git)
     $ cd OLPG
     $ mvn install
 
