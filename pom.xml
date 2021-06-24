@@ -17,7 +17,7 @@
         <jdk.version>1.8</jdk.version>
         <htsjdk.version>2.10.1</htsjdk.version>
         <ontolib.version>0.1.4</ontolib.version>
-        <jena.version>3.6.0</jena.version>
+        <jena.version>3.17.0</jena.version>
     </properties>
 
     <dependencies>
@@ -398,8 +398,8 @@
                         <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                             <mainClass>org.jax.pdxintegrator.PdxIntegrator</mainClass>
                         </transformer>
-                        <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
-                        <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer" />
+                        <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                        <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer"/>
                         <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer">
                             <addHeader>false</addHeader>
                         </transformer>
@@ -439,7 +439,7 @@
                         <id>enforce</id>
                         <configuration>
                             <rules>
-                                <DependencyConvergence />
+                                <DependencyConvergence/>
                             </rules>
                         </configuration>
                         <goals>
